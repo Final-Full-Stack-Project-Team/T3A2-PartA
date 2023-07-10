@@ -1,39 +1,60 @@
-WORKING DRAFT:
+# **R1**
+## Description of your website, including:
+- Purpose
+- Functionality / features
+- Target audience
+- Tech stack
 
-‌
+### Purpose:
+The purpose of the app is to provide users with an effective and easy-to-use solution for sharing and collaborating on lists. Lists are used for many varying applications such as a grocery list, a to-do list, a travel itinerary a to-do list and more. This app aims to streamline the process of creating, sharing, and managing lists among multiple users with ease. It aims to have a clean UI and UX that makes sense without a steep learning curve so the user can efficiently use the list right away.
 
-Grocery shopping list app - Share your shopping list with your household!
+### Functionality / Features:
 
-There are existing apps out there but they are bloated and have intrusive ads .
+The app aims to have the following features. Although during development, things may change:
 
-The idea is pretty simple. It's a grocery shopping list that you can share with someone.
+- User signup using bcrypt for passwords.
 
-In a shared shopping list, all people can create, read, update and delete items on their shopping list.
+- User sign in page with password reset option.
 
-It allows someone to add something to the list when they think of it but if another person in the house pops into the supermarket on their way home, they can check the list and don't have to make contact with other members of the household.
+- Once a user successfully signs up for an account they can create shared groups and add people to them via email. Groups are an optional feature which is useful for users who frequently share lists with the same people. A user can also invite people directly via email without the need to create a group.
 
-There are many nice-to-haves for this project but it will need to be scaled down in order to meet the deadline of the project.
+- Users can create, read, update and delete new lists.
 
-After the project is submitted I want to add more such as auto adding items - weekly items like bread and milk get auto added to the list, ability to add images to an item, refined UI etc.
+- Once a list is no longer needed it can be marked as completed.
+There will be a "completed" section of the app where completed lists can be read, marked as active, or be deleted.
 
-Looking to implement the following:
+- All people with access to a list can add items and cross them off the list with a checkbox.
 
-User signup using bcrypt for passwords
+- Crossing items off the list adds a line through the text and ticks the checkbox for easy visual confirmation.
 
-User signin page
+- User accounts, user groups, lists and list items are stored in individual MongoDB collections.
 
-Users can invite people to share their shopping list via email address.
+- Multiple users can collaborate on the same list simultaneously, adding items, crossing out completed tasks, and making real-time updates. This feature promotes teamwork and ensures everyone stays on the same page, literally.
 
-Email sent to new users has a link to the signup/signin page.
+### Target Audience:
+The app's target audience is any individual or group of people who frequently need to create and manage shared lists. It caters to users of all ages and technical backgrounds, aiming to provide a user-friendly experience for both tech-savvy individuals and those less familiar with technology.
 
-User accounts are stored in Mongo
+### Tech Stack:
+The app utilizes a modern tech stack to deliver a seamless and responsive user experience:
 
-Shopping lists are stored in Mongo if applicable
+Front-end: HTML, CSS, JavaScript, React.js
+Back-end: Node.js, Express.js
+Database: MongoDB
+Hosting: Netlify
+Authentication: JWT (JSON Web Tokens)
 
-Users can create new shopping lists and delete
 
-Users invited to a list can create, read, update and delete items on the shopping list (would like to implement a way for the owner of the list to be the only person who can invite people but this may be dropped if it can't be done in time)
+# **R2**	
+## Dataflow Diagram
 
-Each item in a list to have a tick box and when ticked, the item is lined out to represent it no longer being needed
+# **R3**	
+## Application Architecture Diagram
 
-The entire shopping list has the ability to be marked as "completed" which will be moved to the "completed" section of the app.
+# **R4**	
+## User Stories
+
+# **R5**	
+## Wireframes for multiple standard screen sizes, created using industry standard software
+
+# **R6**	
+## Screenshots of your Trello board throughout the duration of the project
