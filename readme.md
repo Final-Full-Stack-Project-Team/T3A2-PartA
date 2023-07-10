@@ -56,5 +56,13 @@ Authentication: JWT (JSON Web Tokens)
 # **R5**	
 ## Wireframes for multiple standard screen sizes, created using industry standard software
 
+Please click the below link to view the Figma file:
+
+https://www.figma.com/file/Ef1YxeoB6ynW9VCMY6zRdx/T3A2?type=design&node-id=0%3A1&mode=design&t=bNSu0Xi3jqdfKIgB-1
+
 # **R6**	
 ## Screenshots of your Trello board throughout the duration of the project
+
+Please click the below link to view the Trello Board:
+
+https://trello.com/b/8YmuMz1R/t3a2-part-a
