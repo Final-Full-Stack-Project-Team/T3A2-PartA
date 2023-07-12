@@ -1,9 +1,6 @@
 # **R1**
-## Description of your website, including:
-- Purpose
-- Functionality / features
-- Target audience
-- Tech stack
+## Description of your website, including: Purpose, Functionality / features, Target audience, Tech stack
+
 
 ### Purpose:
 The purpose of the app is to provide users with an effective and easy-to-use solution for sharing and collaborating on lists. Lists are used for many varying applications such as a grocery list, a to-do list, a travel itinerary a to-do list and more. This app aims to streamline the process of creating, sharing, and managing lists among multiple users with ease. It aims to have a clean UI and UX that makes sense without a steep learning curve so the user can efficiently use the list right away.
