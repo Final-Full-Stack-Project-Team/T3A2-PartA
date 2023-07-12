@@ -38,9 +38,13 @@ The app's target audience is any individual or group of people who frequently ne
 The app utilizes a modern tech stack to deliver a seamless and responsive user experience:
 
 Front-end: HTML, CSS, JavaScript, React.js
+<br>
 Back-end: Node.js, Express.js
+<br>
 Database: MongoDB
+<br>
 Hosting: Netlify
+<br>
 Authentication: JWT (JSON Web Tokens)
 
 
@@ -53,8 +57,23 @@ Authentication: JWT (JSON Web Tokens)
 # **R4**	
 ## User Stories
 
+1. As an active business person, I want to be able to quickly create lists when I'm on the go and share them with my colleagues so we can keep track of deadlines and prioritize tasks while collaborating efficiently.
+
+2. As a student, I want to be able to share lists with my cohorts so that we can  work together on upcoming group assignments and check off the list as they are completed in order to stay up-to-date on what tasks are ahead of us.
+
+3. As a parent, I want to be able to create weekly grocery lists that can be easily edited while at the supermarket because my grocery needs a frequently changing. I want to share this list with my partner so they can add items to the list that I may have  forgotten.
+
+4. As a travelling salesperson I want to be able to create a list of clients and be able to mark them as completed or crossed out so that I can keep track of the clients who I have visited on any given day.
+
+5. As a person who is not highly tech savvy, I would like to be able to have create to-do lists in an app that is simple to use so that I can focus on my tasks without getting overwhelmed by complex user interfaces.
+
+6. As a camping enthusiast, I want to make an inventory of all of my camping gear so that I can check that I have everything I need before heading off to my next camping adventure. After my camping trip has finished, I want to be able to quickly unmark all items on the list so that I can go through the list again for future trips. I want to be able to easily edit and delete items when I buy or replace things.
+
+
 # **R5**	
 ## Wireframes for multiple standard screen sizes, created using industry standard software
+
+The below working file contains wireframes/designs for mobile, tablet and desktop. In the mobile design, the relationship between each page is outlined. The relationships displayed in the mobile version and the same for the tablet and desktop versions.
 
 Please click the below link to view the Figma file:
 
