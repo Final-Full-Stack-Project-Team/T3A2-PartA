@@ -46,10 +46,17 @@ Authentication: JWT (JSON Web Tokens)
 
 
 # **R2**	
-## Dataflow Diagram
+## Dataflow Diagrams
+
+![UserOperationsDataDiagram](./docs/User-Data-Operations.jpg)
+![GroupOperationsDataDiagram](./docs/Group-Data-Operations.jpg)
+![ListOperationsDataDiagram](./docs/List-Data-Operations.jpg)
+![ItemOperationsDataDiagram](./docs/Item-Data-Operations.jpg)
 
 # **R3**	
 ## Application Architecture Diagram
+
+![ArchitectureDiagram](./docs/Architechture-diagram.jpg)
 
 # **R4**	
 ## User Stories
