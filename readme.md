@@ -3,7 +3,7 @@
 
 
 ### Purpose:
-The purpose of the app is to provide users with an effective and easy-to-use solution for sharing and collaborating on lists. Lists are used for many varying applications such as a grocery list, a to-do list, a travel itinerary a to-do list and more. This app aims to streamline the process of creating, sharing, and managing lists among multiple users with ease. It aims to have a clean UI and UX that makes sense without a steep learning curve so the user can efficiently use the list right away.
+The purpose of the app is to provide users with an effective and easy-to-use solution for sharing and collaborating on lists. Lists are used for many varying applications such as a grocery list, a to-do list, a travel itinerary, a to-do list and more. This app aims to streamline the process of creating, sharing, and managing lists among multiple users with ease. It aims to have a clean UI and UX that makes sense without a steep learning curve so the user can efficiently use the list right away.
 
 ### Functionality / Features:
 
@@ -40,13 +40,13 @@ Back-end: Node.js, Express.js
 <br>
 Database: MongoDB
 <br>
-Hosting: Netlify
+Hosting: Netlify, MongoDB Atlas
 <br>
 Authentication: JWT (JSON Web Tokens)
 
 
 # **R2**	
-## Dataflow Diagrams
+## Data Flow Diagrams
 
 ![UserOperationsDataDiagram](./docs/User-Data-Operations.jpg)
 ![GroupOperationsDataDiagram](./docs/Group-Data-Operations.jpg)
@@ -65,13 +65,13 @@ Authentication: JWT (JSON Web Tokens)
 
 2. As a student, I want to be able to share lists with my cohorts so that we can  work together on upcoming group assignments and check off the list as they are completed in order to stay up-to-date on what tasks are ahead of us.
 
-3. As a parent, I want to be able to create weekly grocery lists that can be easily edited while at the supermarket because my grocery needs a frequently changing. I want to share this list with my partner so they can add items to the list that I may have  forgotten.
+3. As a parent, I want to be able to create weekly grocery lists that can be easily edited while at the supermarket as my grocery needs frequently change. I want to share this list with my partner so they can add items to the list that I may have forgotten.
 
-4. As a travelling salesperson I want to be able to create a list of clients and be able to mark them as completed or crossed out so that I can keep track of the clients who I have visited on any given day.
+4. As a traveling salesperson I want to be able to create a list of clients and be able to mark them as completed or crossed out so that I can keep track of the clients who I have visited on any given day.
 
-5. As a person who is not highly tech savvy, I would like to be able to have create to-do lists in an app that is simple to use so that I can focus on my tasks without getting overwhelmed by complex user interfaces.
+5. As a person who is not highly tech savvy, I would like to be able to create to-do lists in an app that is simple to use so that I can focus on my tasks without getting overwhelmed by complex user interfaces.
 
-6. As a camping enthusiast, I want to make an inventory of all of my camping gear so that I can check that I have everything I need before heading off to my next camping adventure. After my camping trip has finished, I want to be able to quickly unmark all items on the list so that I can go through the list again for future trips. I want to be able to easily edit and delete items when I buy or replace things.
+6. As a camping enthusiast, I want to make an inventory of all of my camping gear so that I can check that I have everything I need before heading off to my next camping adventure. After my camping trip has finished, I want to be able to quickly uncheck all items on the list so that I can go through the list again for future trips. I want to be able to easily edit and delete items when I buy or replace things.
 
 
 # **R5**	
@@ -86,6 +86,24 @@ https://www.figma.com/file/Ef1YxeoB6ynW9VCMY6zRdx/T3A2?type=design&node-id=0%3A1
 # **R6**	
 ## Screenshots of your Trello board throughout the duration of the project
 
+Due to some initial external challenges with successfully being assigned a partner, we first made contact with each other several days after our cohort's partners were assigned. Once we were assigned, we quickly gained contact on Discord, decided what project we would build and agreed to meet via a Discord call on the 31st of June. 
+
+During the call, we created our Trello board and its tasks then assigned tasks to each other which gave us a good direction heading forward. We also created a repository on GitHub for Part A. After our first meeting, our Trello board looked like this:
+
+![Trello-board-1](./docs/Trello-board-1.png)
+
+During the process of working through the work required, we kept in frequent contact via Discord to kept each other updated. We shared this Readme.md document on GitHub and were able to both update it and use git pull requests to receive updates. 
+
+After we had completed Part A, we had another call on Discord to coordinate the first tasks for part B where we decided to start working on the backend of the project. We then created a Trello Board for Part B and assigned each other tasks.
+
+This is what our Part A Trello board looks like now:
+
+![Trello-board-2](./docs/Trello-board-2.png)
+
 Please click the below link to view the Trello Board:
 
 https://trello.com/b/8YmuMz1R/t3a2-part-a
+
+Please click the below link to view the Part A Repository:
+
+https://github.com/Final-Full-Stack-Project-Team/T3A2-PartA
